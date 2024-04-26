@@ -1,0 +1,55 @@
+@import url('fonts.css');
+@import url('homepage.css');
+
+body, hml {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-width: 1280px;
+}
+
+#container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* NAVIGATION BLOCK */
+#navigationBlock{
+	position: absolute;
+	width: 80%;
+	margin: 0 10%;
+	padding: 0;
+	z-index: 1000;
+}
+
+#navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0 0 0;
+}
+
+#logoBlock{
+	width: 120px;
+}
+
+#logoBlock img{
+	width: 120px;
+}
+
+#regBtnBlock{
+	width: 120px;
+	text-align: right;
+}
+
+#navBlock{
+	width: calc(100% - 300px);
+	margin-left: 60px;
+}
+
+#navBlock span{
+	padding: 0;
+	margin: 0 20px;
+}
+/* NAVIGATION BLOCK */
