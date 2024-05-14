@@ -1,0 +1,214 @@
+/* HOMEPAGE BANNER BLOCK */
+#homeBanner{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#homeBannerTextBlock{
+	position: absolute;
+	width: 40%;
+	margin: 0 10%;
+	padding: 0;
+	z-index: 100;
+	top: 50%;
+	transform: translate(0, -30%);
+}
+
+#homeBannerImgBlock{
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+#homeBannerImgBlock img{
+	width: 60%;
+	height: auto !important;
+	margin: 0;
+	padding: 0;
+}
+/* HOMEPAGE BANNER BLOCK */
+
+/* HOMEPAGE COMPANY BLOCK */
+#homeCompany{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;	
+}
+
+#homeCompanyBlock{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	gap: 60px;	
+}
+
+#homeCompanyLeft{	
+	width: 40%;
+}
+
+#homeCompanyLeft2{	
+	width: 60%;
+}
+
+#homeCompanyRight{	
+	width: calc(60% - 60px);
+}
+
+#homeCompanyRight2{	
+	width: calc(40% - 60px);
+}
+
+#homeCompanyRight img{
+	width: 100%;
+	height: auto !important;
+	border-radius: 6px;
+}
+
+#homeCompanyRight2 img{
+	width: 100%;
+	height: auto !important;
+
+}
+
+.homeCompanyContent{
+	position: relative;
+	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* HOMEPAGE COMPANY BLOCK */
+
+/* HOMEPAGE HELP BLOCK */
+#homeService{
+	width: 80%;
+	margin: 60px 10%;
+	padding: 0;
+}
+
+#homeServiceBlock{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	gap: 60px;	
+}
+
+#homeServiceLeft{
+	width: 40%;
+	display: flex;
+	align-items: flex-start;
+	gap: 20px
+}
+
+#homeServiceRight{
+	width: calc(60% - 60px);
+}
+
+.homeServiceContent{
+	position: relative;
+	top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#homeServiceList1, #homeServiceList2{
+	width: 100%;
+}
+
+#homeServiceIconBlock1, #homeServiceIconBlock2{
+	width: clac(100% - 50px);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 6px;
+	padding: 25px;
+	text-overflow: ellipsis;	
+}
+
+#homeServiceIconBlock1{
+	margin: 0 0 20px 0;
+}
+
+#homeServiceIconBlock2{
+	margin: 20px 0 0 0;
+}
+
+#homeServiceIcon{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 30px;
+	background: #f4f9f1;
+}
+
+#homeServiceIcon img{
+	width: 100%;
+	height: auto !important;
+}
+
+#shortExpBlock{
+	width: 75%;
+}
+/* HOMEPAGE HELP BLOCK */
+
+/* HOMEPAGE TEAM BLOCK */
+#homeTeamBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#teamListBlock{
+	margin: 0 0 30px 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+#teamList{
+	width: calc(20% - 90px);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 30px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.teamPhoto{
+	width: 100px;
+	height: 100px;
+	margin: 0 0 25px 0;
+	border-radius: 50px;
+}
+/* HOMEPAGE TEAM BLOCK */
+
+/* HOMEPAGE ADVANTAGES BLOCK */
+#homeAdvantages{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+	border-top: 2px solid #91c378;
+}
+
+#advantagesListBlock{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 30px;
+}
+
+#advantagesList{
+	width: 25%;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 30px;
+	background: #ffffff;
+}
+/* HOMEPAGE ADVANTAGES BLOCK */

@@ -1,0 +1,479 @@
+@import url('fonts.css');
+@import url('homepage.css');
+
+body, hml {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	min-width: 1280px;
+}
+
+#container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#grayBlock{
+	background: rgba(0, 0, 0, 0.05);
+	margin: 0;
+	padding: 0;
+}
+
+#greenBlock{
+	background: #f4f9f1;
+	margin: 0;
+	padding: 0;
+}
+
+/* NAVIGATION BLOCK */
+#navigationBlock{
+	position: absolute;
+	width: 80%;
+	margin: 0 10%;
+	padding: 0;
+	z-index: 1000;
+}
+
+#navigationBlock2{
+	width: 80%;
+	margin: 0 10%;
+	padding: 0 0 30px 0;
+	z-index: 1000;
+}
+
+#navigation{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px 0 0 0;
+}
+
+#logoBlock{
+	width: 120px;
+}
+
+#logoBlock img{
+	width: 120px;
+}
+
+#regBtnBlock{
+	width: 120px;
+	text-align: right;
+}
+
+#navBlock{
+	width: calc(100% - 300px);
+	margin-left: 60px;
+}
+
+#navBlock span{
+	padding: 0;
+	margin: 0 20px;
+}
+/* NAVIGATION BLOCK */
+
+/* COMPANY BLOCK */
+#CompanyPageBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#AwardsPageBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#awardsListBlock{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: start;
+	width: 100%;
+	gap: 40px;
+	flex-wrap: wrap;
+}
+
+#awardsList{
+	position: relative;
+	width: calc(14.285% - 34.285px);
+	border-radius: 6px;
+	padding: 0;
+	text-align: center;
+	background: #ffffff;
+	
+}
+
+#awardsListYear{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	color: #323232;
+	position: absolute;
+	left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+}
+
+#awardsListPlase{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16pt;
+	color: #323232;
+	font-weight: 900;
+	position: absolute;
+	left: 50%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+}
+
+#awardsListDescription{	
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+	color: #323232;
+}
+
+.awardPhoto{
+	width: 100%;
+	height: auto !important;
+	margin: 0 0 25px 0;
+	border-radius: 50%;
+}
+/* COMPANY BLOCK */
+
+/* SERVICES BLOCK */
+#servicesBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#servicesListBlock{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 30px;
+}
+
+#servicesListBlock2{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+#servicesList{
+	width: 25%;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 30px;
+	background: #ffffff;
+}
+
+#servicesList2{
+	width: calc(25% - 85px);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 30px;
+	background: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+}
+
+#skillsBlock{
+	font-family: 'Roboto';
+	font-size: 7pt;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.5);
+	text-transform: uppercase;
+	display: flex;
+	gap: 4px;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 10px 0;
+}
+
+#skillsBlock span{	
+	width: fit-content;	
+	padding: 3px 9px;
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+
+.coursesImg{
+	width: calc(100% + 60px);
+	margin: -30px -30px 15px -30px;
+	border-radius: 6px 6px 0 0;
+}
+
+#enrollBtn{
+	position: relative;
+	display: block;
+	height: 100%;
+	margin: 75px 0 0 0;
+}
+
+#enrollBtn div{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+#jobTypeBlock{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	line-height: 16pt;
+	font-weight: 400;
+	color: #323232;
+	margin: 10px 0 20px 0;
+}
+/* SERVICES BLOCK */
+
+/* TEAM BLOCK */
+#TeamPageBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#teamPageListBlock{
+	margin: 0 0 30px 0;
+	padding: 0;
+	display: flex;
+	justify-content: start;
+	width: 100%;
+	gap: 30px;
+}
+
+#teamPageList{
+	width: calc(25% - 90px);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 30px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.teamPagePhoto{
+	width: 45%;
+	min-width: 115px;
+	height: auto !important;
+	margin: 0 0 25px 0;
+	border-radius: 50%;
+}
+
+#devDesc{
+	text-align: left;
+	margin: 25px 0 0 0;
+	line-height: 16pt;
+}
+/* TEAM BLOCK */ 
+
+/* DEPARTMENTS BLOCK */
+#departmentBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#departmentListBlock{
+	margin: 0 0 30px 0;
+	padding: 0;
+	display: flex;
+	justify-content: start;
+	width: 100%;
+	gap: 30px;
+}
+
+#departmentList{
+	width: calc(25% - 90px);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	padding: 30px;
+	text-align: left;
+	background: #ffffff;
+}
+
+#departmentMapBlock{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#departmentFormBlock{
+	position: absolute;
+	margin: 0;
+	padding: 32px;
+	top: 0;
+	right: 10%;
+	background: #91c378;	
+}
+
+.mapImage{
+	width: 100%;
+	height: auto !important;
+	margin: 0;
+	padding: 0;
+}
+/* DEPARTMENTS BLOCK */
+
+/* APPLICATION FORM */
+#appFormBlock{
+	width: 80%;
+	margin: 0 10%;
+	padding: 60px 0;
+}
+
+#appForm{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: flex-start;
+	width: 100%;
+	gap: 60px;	
+}
+
+#appFormLeft{	
+	width: 40%;
+}
+
+#appFormRight{	
+	width: calc(60% - 60px);
+}
+
+#formBlock{
+	padding: 35px;
+	margin: 0;
+	border: 1px solid #91c378;
+	border-radius: 6px;
+}
+
+#formLine{
+	margin: 0 0 15px 0;
+}
+
+.fileZoneBlock{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	background: #f9fafb;
+	border: 2px #e3e5e9;
+	border-style: dashed;
+	border-radius: 4px;
+}
+
+.fileZoneLabel{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	cursor: pointer
+}
+
+.fileZoneInfo{
+	font-family: 'Roboto';
+	font-size: 10pt;
+	font-weight: 400;
+	color: #6e727f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 45px 0;
+}
+
+.fileZoneInfo img{
+	width: 10%;
+	margin: 0 0 15px 0;
+}
+
+.custom-select{
+	min-width: 350px;
+	position: relative;	
+}
+
+select{
+	appearance: none;
+	/*  safari  */
+	-webkit-appearance: none;
+	/*  other styles for aesthetics */
+	width: 100%;
+	font-family: 'Roboto';
+	font-size: 10pt;
+	font-weight: 500;
+	color: #323232;
+	padding: 15px;
+	background-color: #fff;
+	border: 1px solid #caced1;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.custom-select::after{
+	--size: 0.3rem;
+	content: "";
+	position: absolute;
+	right: 1rem;
+	pointer-events: none;
+}
+
+.custom-select::after {
+	border-left: var(--size) solid transparent;
+	border-right: var(--size) solid transparent;
+	border-top: var(--size) solid black;
+	top: 45%;
+}
+
+/* APPLICATION FORM */
+
+/* FOOTER */
+#footerBlock{	
+	background: #323232;
+	padding: 48px 0;
+	margin: 0;
+}
+
+#footer{
+	width: 80%;
+	margin: 0 10%;
+	padding: 0;
+	z-index: 1000;
+}
+
+#footerLinkBlock{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+.CopyBlock{
+	font-family: 'Roboto', sans-serif;
+	font-size: 10pt;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.3);
+	width: calc(100% - 80px - 80px);
+}
+
+.SmBlock{
+	width: 20px;
+	text-align: center;
+	font-size: 15pt;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.SmBlock a{color: rgba(255, 255, 255, 0.3); text-decoration: none;}
+.SmBlock a:hover{color: #91c378; text-decoration: underline;}
+/* FOOTER */
